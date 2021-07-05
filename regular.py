@@ -34,5 +34,3 @@ html=re.sub('<a.*?>|</a>','',html)
 result=re.findall('<li.*?>(.*?)</li>',html,re.S)
 for i in result:
     print(i.strip())
-
-#ggg
